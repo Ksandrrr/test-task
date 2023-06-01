@@ -1,0 +1,132 @@
+.Card {
+  max-width: 1200px;
+  padding: 20px;
+  padding-right: 20px;
+  display: flex;
+  justify-content:center;
+  flex-wrap: wrap;
+  
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.overflow {
+    position: relative;
+  width: 380px;
+  height: 460px;
+  background: linear-gradient(
+    114.99deg,
+    #471ca9 -0.99%,
+    #5736a3 54.28%,
+    #4b2a99 78.99%
+  );
+  box-shadow: -2.5777px 6.87386px 20.6216px rgba(0, 0, 0, 0.23);
+  border-radius: 20px;
+  margin: 10px;
+}
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.backImage {
+  width: 308px;
+  height: 196px;
+  background-image: url('../photo/picture.png');
+  background-repeat: no-repeat;
+  background-position: bottom;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 18px;
+}
+.UserLine {
+  position: relative;
+  width: 380px;
+  height: 8px;
+  background: #ebd8ff;
+  box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.06),
+    inset 0px -1.71846px 3.43693px #ae7be3, inset 0px 3.43693px 2.5777px #fbf8ff;
+}
+.UserWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+  width: 80px;
+  height: 80px;
+  background: #ebd8ff;
+  box-shadow: 0px 4.39163px 4.39163px rgba(0, 0, 0, 0.06),
+    inset 0px -2.19582px 4.39163px #ae7be3,
+    inset 0px 4.39163px 3.29372px #fbf8ff;
+  border-radius: 50%;
+}
+.UserPhoto {
+  width: 63px;
+  height: 63px;
+  background: linear-gradient(
+    114.99deg,
+    #471ca9 -0.99%,
+    #5736a3 54.28%,
+    #4b2a99 78.99%
+  );
+  border-radius: 50%;
+}
+.tweets {
+  text-align: center;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: #ebd8ff;
+  margin-top: 62px;
+  margin-bottom: 16px;
+}
+.follower {
+  text-align: center;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: #ebd8ff;
+  margin-top: 0;
+  margin: 16px;
+}
+.btn {
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.2;
+  cursor: pointer;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-transform: uppercase;
+  width: 196px;
+  height: 50px;
+  background: #ebd8ff;
+  box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.25);
+  border-radius: 10.3108px;
+  border: none;
+}
+.btnActive {
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.2;
+  cursor: pointer;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-transform: uppercase;
+  width: 196px;
+  height: 50px;
+  background: #5cd3a8;
+  box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.25);
+  border-radius: 10.3108px;
+  border: none;
+}
